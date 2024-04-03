@@ -3,7 +3,7 @@ let timer = document.getElementById("timer");
 
 let currentDate = new Date();
 
-setInterval(funcion (){
+setInterval(function (){
 	currentDate = new Date();
 	timer.innerHTML = currentDate.toLocaleStrint();
 },1000)
